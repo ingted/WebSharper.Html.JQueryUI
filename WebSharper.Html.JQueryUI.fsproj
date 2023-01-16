@@ -1,0 +1,108 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+		<TargetFramework>net7.0</TargetFramework>
+		<EnableDefaultContentItems>false</EnableDefaultContentItems>
+		<IsWindows Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Windows)))' == 'true'">true</IsWindows>
+		<IsOSX Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::OSX)))' == 'true'">true</IsOSX>
+		<IsLinux Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))' == 'true'">true</IsLinux>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <DefineConstants>TRACE;EXECUTIONNODE</DefineConstants>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <DefineConstants>TRACE;EXECUTIONNODE</DefineConstants>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+
+		
+		<Compile Include="apiServer\Legacy\Html.Interface.fs" />
+		
+		<Compile Include="apiServer\Legacy\Attribute.fs" />
+		
+		<Compile Include="apiServer\Legacy\Element.fs" />
+		
+		<Compile Include="apiServer\Legacy\Tag.fs" />
+		
+		<Compile Include="apiServer\Legacy\Attr.fs" />
+		
+		<Compile Include="apiServer\Legacy\Operators.fs" />
+		
+		<Compile Include="apiServer\Legacy\Html.fs" />
+		
+		<Compile Include="apiServer\Legacy\Events.fs" />
+		
+		<Compile Include="apiServer\Legacy\Position.fs" />
+		
+		<Compile Include="apiServer\Legacy\Autocomplete.fs" />
+		
+		<Compile Include="apiServer\Legacy\Bootstrap.fs" />
+		
+		<Compile Include="apiServer\Legacy\FutoComplete.fs" />
+		
+		<Compile Include="apiServer\JUI\Dependencies.fs" />
+		
+		<Compile Include="apiServer\JUI\Accordion.fs" />
+		
+		<Compile Include="apiServer\JUI\Button.fs" />
+		
+		<Compile Include="apiServer\JUI\Datepicker.fs" />
+		
+		<Compile Include="apiServer\JUI\Dialog.fs" />
+		
+		<Compile Include="apiServer\JUI\Menu.fs" />
+		
+		<Compile Include="apiServer\JUI\ProgressBar.fs" />
+		
+		<Compile Include="apiServer\JUI\Slider.fs" />
+		
+		<Compile Include="apiServer\JUI\Spinner.fs" />
+		
+		<Compile Include="apiServer\JUI\Draggable.fs" />
+		
+		<Compile Include="apiServer\JUI\Droppable.fs" />
+		
+		<Compile Include="apiServer\JUI\Tabs.fs" />
+		
+		<Compile Include="apiServer\JUI\Tooltip.fs" />
+		
+		<Compile Include="apiServer\JUI\Resizable.fs" />
+		
+		<Compile Include="apiServer\JUI\Selectable.fs" />
+		
+		<Compile Include="apiServer\JUI\Sortable.fs" />
+		<None Include="wsconfig.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="WebSharper.AspNetCore" Version="6.1.1.252" />
+		<PackageReference Include="WebSharper.AspNetCore.WebSocket" Version="6.1.0.249" />
+		<PackageReference Include="WebSharper.Forms" Version="6.1.0.249" />
+		<PackageReference Include="WebSharper.JQuery" Version="6.1.0.249" />
+		<PackageReference Include="WebSharper.UI" Version="6.1.0.249" />
+		<PackageReference Include="WebSharper" Version="6.1.1.252" />
+		<PackageReference Include="WebSharper.FSharp" Version="6.1.1.252" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="WebSharper.DomJs">
+	    <HintPath>WebSharper.DomJs\bin\Debug\net7.0\WebSharper.DomJs.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	<PropertyGroup Condition="'$(IsWindows)'=='true'">
+		<DefineConstants>Windows</DefineConstants>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(IsOSX)'=='true'">
+		<DefineConstants>OSX</DefineConstants>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(IsLinux)'=='true'">
+		<DefineConstants>Linux</DefineConstants>
+	</PropertyGroup>
+</Project>

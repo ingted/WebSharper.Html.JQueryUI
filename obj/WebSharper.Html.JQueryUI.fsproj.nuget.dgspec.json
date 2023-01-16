@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\WebSharper.Html.JQueryUI\\WebSharper.Html.JQueryUI.fsproj": {}
+  },
+  "projects": {
+    "G:\\WebSharper.Html.JQueryUI\\WebSharper.Html.JQueryUI.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\WebSharper.Html.JQueryUI\\WebSharper.Html.JQueryUI.fsproj",
+        "projectName": "WebSharper.Html.JQueryUI",
+        "projectPath": "G:\\WebSharper.Html.JQueryUI\\WebSharper.Html.JQueryUI.fsproj",
+        "packagesPath": "C:\\Users\\anibal\\.nuget\\packages\\",
+        "outputPath": "G:\\WebSharper.Html.JQueryUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anibal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.101\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/dotnet-websharper/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "generatePathProperty": true
+            },
+            "WebSharper": {
+              "target": "Package",
+              "version": "[6.1.1.252, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.1.252, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.AspNetCore.WebSocket": {
+              "target": "Package",
+              "version": "[6.1.0.249, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.FSharp": {
+              "target": "Package",
+              "version": "[6.1.1.252, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.Forms": {
+              "target": "Package",
+              "version": "[6.1.0.249, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.JQuery": {
+              "target": "Package",
+              "version": "[6.1.0.249, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.UI": {
+              "target": "Package",
+              "version": "[6.1.0.249, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

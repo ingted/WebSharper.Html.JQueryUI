@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>WebSharper.DomJs</name>
+  </assembly>
+  <member name="M:WebSharper.DomJs.Dom.Offset(WebSharper.JavaScript.Dom.Element)">
+    <summary>Returns current coordinates of the element, relative to the document.</summary>
+  </member>
+  <member name="M:WebSharper.DomJs.Dom.Previous(WebSharper.JavaScript.Dom.Element)">
+    <summary>Gets previous sibling element of the HTMLElement.</summary>
+  </member>
+  <member name="M:WebSharper.DomJs.Dom.Next(WebSharper.JavaScript.Dom.Element)">
+    <summary>Gets following sibling element of the HTMLElement.</summary>
+  </member>
+  <member name="M:WebSharper.DomJs.Dom.Children(WebSharper.JavaScript.Dom.Element,System.String)">
+    <summary>Gets children elements of the html element.</summary>
+  </member>
+  <member name="M:WebSharper.DomJs.Dom.Parent(WebSharper.JavaScript.Dom.Element)">
+    <summary>Gets the parent of the html element.</summary>
+  </member>
+  <member name="M:WebSharper.DomJs.Dom.FindByClass(System.String)">
+    <summary>Finds HTMLElements that match given class name.</summary>
+  </member>
+  <member name="M:WebSharper.DomJs.Dom.FindByTagName(System.String)">
+    <summary>Finds HTMLElements that match given tag name.</summary>
+  </member>
+  <member name="M:WebSharper.DomJs.Dom.Id(System.String)">
+    <summary>Returns HTMLElement with given id.</summary>
+  </member>
+  <member name="M:WebSharper.DomJs.Dom.Find(System.String)">
+    <summary>Finds HTMLElements that match css pattern.</summary>
+  </member>
+</doc>

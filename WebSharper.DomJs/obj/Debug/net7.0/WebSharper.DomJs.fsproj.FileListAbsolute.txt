@@ -1,0 +1,11 @@
+G:\WebSharper.Html.JQueryUI\WebSharper.DomJs\bin\Debug\net7.0\WebSharper.DomJs.deps.json
+G:\WebSharper.Html.JQueryUI\WebSharper.DomJs\bin\Debug\net7.0\WebSharper.DomJs.dll
+G:\WebSharper.Html.JQueryUI\WebSharper.DomJs\bin\Debug\net7.0\WebSharper.DomJs.pdb
+G:\WebSharper.Html.JQueryUI\WebSharper.DomJs\bin\Debug\net7.0\WebSharper.DomJs.xml
+G:\WebSharper.Html.JQueryUI\WebSharper.DomJs\obj\Debug\net7.0\WebSharper.DomJs.fsproj.AssemblyReference.cache
+G:\WebSharper.Html.JQueryUI\WebSharper.DomJs\obj\Debug\net7.0\WebSharper.DomJs.AssemblyInfoInputs.cache
+G:\WebSharper.Html.JQueryUI\WebSharper.DomJs\obj\Debug\net7.0\WebSharper.DomJs.AssemblyInfo.fs
+G:\WebSharper.Html.JQueryUI\WebSharper.DomJs\obj\Debug\net7.0\WebSharper.DomJs.fsproj.CoreCompileInputs.cache
+G:\WebSharper.Html.JQueryUI\WebSharper.DomJs\obj\Debug\net7.0\WebSharper.DomJs.dll
+G:\WebSharper.Html.JQueryUI\WebSharper.DomJs\obj\Debug\net7.0\WebSharper.DomJs.xml
+G:\WebSharper.Html.JQueryUI\WebSharper.DomJs\obj\Debug\net7.0\WebSharper.DomJs.pdb

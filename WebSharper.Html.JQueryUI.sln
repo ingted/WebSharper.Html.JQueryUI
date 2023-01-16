@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "WebSharper.Html.JQueryUI", "WebSharper.Html.JQueryUI.fsproj", "{37855B05-BBDC-4128-BBFE-16BE854BDB83}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "WebSharper.DomJs", "WebSharper.DomJs\WebSharper.DomJs.fsproj", "{54E26AEA-F3B0-4814-96C8-A464F078408A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37855B05-BBDC-4128-BBFE-16BE854BDB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37855B05-BBDC-4128-BBFE-16BE854BDB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37855B05-BBDC-4128-BBFE-16BE854BDB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37855B05-BBDC-4128-BBFE-16BE854BDB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E26AEA-F3B0-4814-96C8-A464F078408A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E26AEA-F3B0-4814-96C8-A464F078408A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E26AEA-F3B0-4814-96C8-A464F078408A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E26AEA-F3B0-4814-96C8-A464F078408A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99E818B2-DBEB-43BA-8316-6B813F5A255E}
+	EndGlobalSection
+EndGlobal
